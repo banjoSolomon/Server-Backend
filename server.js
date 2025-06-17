@@ -5,7 +5,7 @@ const axios = require('axios');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const dockerHost = process.env.DOCKER_HOST_URL || 'http://172.16.0.151:2375';
+const dockerHost = process.env.DOCKER_HOST_URL || 'http://62.173.45.238:2375';
 
 app.use(cors());
 
